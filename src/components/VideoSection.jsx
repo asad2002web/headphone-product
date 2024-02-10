@@ -1,4 +1,3 @@
-import ProductVideo from '../../public/Videos/Video Placeholder.mp4'
 import OrderButton from '../shared/OrderButton';
 
 const VideoSection = () => {
@@ -13,7 +12,7 @@ const VideoSection = () => {
             {/* Product Video */}
             <div className="flex justify-center">
                 <video className='border-[6px] border-[#F2EC1A] rounded-xl' width="767" height="431" muted autoPlay controls loop>
-                    <source src={ProductVideo} type="video/mp4" />
+                    <source src="" type="video/mp4" />
                 </video>
             </div>
             {/* Order Button */}
