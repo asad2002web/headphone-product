@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import PageNotFound from "../shared/PageNotFound";
 import Dashboard from "../layouts/Dashboard";
 import PrivateRoute from "./PrivateRoute";
+import OrderSuccessful from "../pages/OrderSuccessful";
 
 
 
@@ -17,6 +18,10 @@ export const routes = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />
+            },
+            {
+                path: "orderSuccessful",
+                element: <OrderSuccessful />
             }
         ]
     },
