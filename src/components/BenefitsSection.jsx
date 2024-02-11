@@ -17,7 +17,7 @@ const BenefitsSection = () => {
                     <p className='flex gap-4 pb-1 mb-1 '><span className='text-2xl'><FaCheckDouble /></span>আরো থাকছে ব্লুটুথ ৫.০ এবং ওয়াটার রেসিসটেন্স সুবিধা।</p>
                 </div>
                 <div className='text-center'>
-                    <OrderButton />
+                    <OrderButton title="অর্ডার করতে ক্লিক করুন"/>
                 </div>
             </div>
         </div>

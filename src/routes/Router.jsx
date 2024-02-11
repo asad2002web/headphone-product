@@ -5,6 +5,8 @@ import PageNotFound from "../shared/PageNotFound";
 import Dashboard from "../layouts/Dashboard";
 import PrivateRoute from "./PrivateRoute";
 import OrderSuccessful from "../pages/OrderSuccessful";
+import Authentication from "../layouts/Authentication";
+import Login from "../pages/Login";
 
 
 
@@ -32,6 +34,16 @@ export const routes = createBrowserRouter([
             {
                 path: "/dashboard",
                 element: <h2>Dashboard2</h2>
+            }
+        ]
+    },
+    {
+        path: "/",
+        element: <Authentication />,
+        children: [
+            {
+                path: "login",
+                element: <Login />
             }
         ]
     }

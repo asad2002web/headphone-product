@@ -12,7 +12,7 @@ const OrderSuccessful = () => {
             </div>
             {/* Order Details Section */}
             <div className=' w-full h-[590px] flex justify-center bg-[#f8f6f8]'>
-                <div className='absolute w-[900px] bg-[#fff] border border-[#9fb5d6] rounded-2xl mt-10 py-10 px-14' style={{ boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px' }}>
+                <div className='absolute w-3/5 bg-[#fff] border border-[#9fb5d6] rounded-2xl mt-10 py-10 px-12' style={{ boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px' }}>
                     <h3 className='text-[22px] font-semibold pb-4 ps-3' style={{ fontFamily: "'Anek Bangla', sans-serif" }}>Your order has been received.</h3>
                     <div className='bg-[#f8f6f8] flex justify-start gap-x-6 p-8 text-[#566376] text-[14px] mb-4'>
                         <div>
@@ -33,14 +33,14 @@ const OrderSuccessful = () => {
                         </div>
                     </div>
                     <p className='text-[14px] text-[#566376]'>Pay with cash upon delivery.</p>
-                    <ul className='bg-[#f8f6f8] pt-8 ps-8 pb-4 text-[#566376] text-[14px] mt-4'>
+                    <ul className='bg-[#f8f6f8] pt-8 px-8 pb-4 text-[#566376] text-[14px] mt-4'>
                         <h3 className='text-[20px] font-semibold pb-8  text-[#000]' style={{ fontFamily: "'Anek Bangla', sans-serif" }}>Order details</h3>
                         <li>
-                            <div className='grid grid-cols-12 font-semibold pb-2 border-b border-dashed border-gray-400'>
+                            <div className='grid grid-cols-12 font-semibold pb-2 border-b border-dashed border-[#ccc]'>
                                 <p className='col-span-5'>Product</p>
                                 <p className='col-span-7'>Total</p>
                             </div>
-                            <div className='grid grid-cols-12 py-2 border-b border-dashed border-gray-400'>
+                            <div className='grid grid-cols-12 py-2 border-b border-dashed border-[#ccc]'>
                                 <p className='col-span-5 flex gap-2'>
                                     <span>Sample product <strong>× 1</strong></span>
                                 </p>

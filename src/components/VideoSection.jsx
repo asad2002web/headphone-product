@@ -16,7 +16,7 @@ const VideoSection = () => {
                 </video>
             </div>
             {/* Order Button */}
-            <OrderButton/>
+            <OrderButton title="অর্ডার করতে ক্লিক করুন"/>
         </div>
     );
 };
