@@ -7,6 +7,7 @@ import PrivateRoute from "./PrivateRoute";
 import OrderSuccessful from "../pages/OrderSuccessful";
 import Authentication from "../layouts/Authentication";
 import Login from "../pages/Login";
+import SignUp from "../pages/SignUp";
 
 
 
@@ -44,6 +45,10 @@ export const routes = createBrowserRouter([
             {
                 path: "login",
                 element: <Login />
+            },
+            {
+                path: "sign-up",
+                element: <SignUp />
             }
         ]
     }
