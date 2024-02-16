@@ -1,7 +1,7 @@
 import BenefitsSection from "../components/BenefitsSection"
 import OrderForm from "../components/OrderForm"
 import PhotoSection from "../components/PhotoSection"
-import VideoSection from "../components/videoSection"
+import VideoSection from "../components/VideoSection"
 
 const Home = () => {
   return (

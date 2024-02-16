@@ -13,8 +13,8 @@ const SignUp = () => {
         setOpenConfirm(!openConfirm)
     }
     return (
-        <div className='flex items-center justify-center h-[120vh]'>
-            <div className='bg-white px-14 py-8 rounded-3xl'>
+        <div className='flex justify-center'>
+            <div className='bg-white px-14 py-8 rounded-3xl my-16'>
                 <h1 className='text-center text-4xl font-bold' style={{ fontFamily: "'Hind Siliguri', sans-serif" }}>Sign Up Form</h1>
                 <div className='flex justify-center gap-2'>
                     <Link to="/login"><button className='w-32 bg-[#ff0000] text-white text-[22px] font-semibold py-1 px-6 mt-5 mb-6 rounded-md hover:bg-[#F2EC1A] hover:text-black hover:border-2 hover:border-[#ff0000] active:bg-[#087f0c] active:text-white focus:bg-[#087f0c] border-2 border-[#ff0000]' style={{ fontFamily: "'Hind Siliguri', sans-serif", boxShadow: "rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset", transition: '.2s' }}>Login</button></Link>

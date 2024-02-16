@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 
 const Authentication = () => {
     return (
-        <div className='bg-[#2e2e2e]'>
+        <div className='bg-[#2e2e2e] h-full'>
             <Outlet/>
         </div>
     );
