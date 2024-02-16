@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 const OrderForm = () => {
     return (
-        <div className='bg-[#E1FFEF] py-10 px-28'>
-            <div className=''>
-                <h2 className='text-2xl font-semibold pb-5 text-center' style={{ fontFamily: "'Hind Siliguri', sans-serif" }}>অর্ডার করতে নিচের ফর্মে আপনার নাম ঠিকানা ফোন নম্বর দিয়া প্লেস অর্ডার বাটন এ ক্লিক করুন।</h2>
-                <form className='border-[#8b4a2e] border-y-[16px] border-x-[6px] border-b-[6px] rounded-2xl grid grid-cols-2'>
-                    <ul className='py-6 ps-4'>
+        <div className='bg-[#E1FFEF] py-10 px-4 sm:px-4 md:px-4 lg:px-28'>
+            <div>
+                <h2 className='text-xl sm:text-xl md:text-2xl lg:text-2xl font-semibold pb-5 text-center' style={{ fontFamily: "'Hind Siliguri', sans-serif" }}>অর্ডার করতে নিচের ফর্মে আপনার নাম ঠিকানা ফোন নম্বর দিয়া প্লেস অর্ডার বাটন এ ক্লিক করুন।</h2>
+                <form className='border-[#8b4a2e] border-y-[16px] border-x-[6px] border-b-[6px] rounded-2xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
+                    <ul className='py-6 px-4 sm:px-6 md:px-6 lg:px-4 '>
                         <li><h3 className='text-xl font-semibold pb-6'>Billing details</h3></li>
                         <li>
                             <label htmlFor="নাম">নাম লিখুন <span className='text-[#FF0000] text-lg font-bold'>*</span></label><br />
